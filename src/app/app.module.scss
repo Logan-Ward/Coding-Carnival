@@ -1,0 +1,56 @@
+/* Your styles goes here. */
+
+// Colors:
+// $circles: rgb(19, 14, 14); // Dark Brown
+$circles: #728ea6; // Light Blue-Grey
+
+h1 {
+  display: flex;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  width: fit-content;
+  margin-top: 5vh;
+  margin-bottom: calc(15vh - 15px);
+  font-size: min(3rem, 6vh);
+  z-index: 1;
+  user-select: none;
+}
+
+li {
+  z-index: 1;
+}
+
+a {
+  user-select: none;
+}
+
+svg {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+circle {
+  z-index: -1;
+  fill: $circles;
+}
+
+.circle-button {
+  outline: none;
+  border: 2px solid;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  left: 94vw;
+  top: 6vh;
+  cursor: pointer;
+}

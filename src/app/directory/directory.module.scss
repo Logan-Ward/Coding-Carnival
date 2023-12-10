@@ -1,0 +1,32 @@
+/* Your styles goes here. */
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  font-size: min(3rem, 6vh);
+  margin-bottom: min(4rem, 10vh);
+  background-color: rgba(43, 100, 164, 0.4);
+  border-radius: 360px;
+  padding: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  cursor: pointer;
+  &:hover {
+    background: darken(rgba(80, 143, 215, 0.4), 5);
+    transform: scale(1.02);
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
